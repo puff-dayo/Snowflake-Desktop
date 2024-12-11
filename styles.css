@@ -1,0 +1,19 @@
+/* styles.css */
+* {
+    -webkit-user-select: none;
+    user-select: none; 
+    /* -webkit-app-region: drag; */
+}
+
+.selectable {
+    -webkit-user-select: text;
+    user-select: none;
+}
+
+.no-drag {
+    -webkit-app-region: no-drag;
+}
+
+button, input, select, a {
+    -webkit-app-region: no-drag;
+}
